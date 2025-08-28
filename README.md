@@ -1,12 +1,40 @@
-# React + Vite
+# PopX Account Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based user account management system with a clean, modern UI built using Tailwind CSS.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PopX is a responsive web application that allows users to create accounts, log in, and manage their profile information. The application features a clean, professional design with a focus on user experience.
 
-## Expanding the ESLint configuration
+## Live link
+link https://react-ui-assignment.onrender.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **User Registration**: Create a new account with validation
+- **User Authentication**: Login with email and password
+- **Account Management**: View and manage profile information
+- **Responsive Design**: Works on desktop and mobile devices
+- **Local Storage**: User data persists in browser local storage
+
+## Tech Stack
+
+- **Frontend Framework**: React
+- **Styling**: Tailwind CSS
+- **Routing**: React Router
+- **State Management**: React Context API
+- **Build Tool**: Vite
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run project
+   ```bash
+   npm run dev
+   ```
+
+
+Made with ❤️ by Sami Pevekar
