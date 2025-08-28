@@ -1,4 +1,4 @@
-// src/components/Button.jsx
+
 function Button({ children, onClick, type = "button", variant = "primary", className = "" }) {
   const baseClasses = "w-full py-2 px-4 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-offset-2"
   

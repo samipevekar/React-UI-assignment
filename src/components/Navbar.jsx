@@ -1,4 +1,4 @@
-// src/components/Navbar.jsx
+
 import { useAuth } from '../context/AuthContext'
 
 function Navbar() {

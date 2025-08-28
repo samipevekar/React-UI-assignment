@@ -1,4 +1,4 @@
-// src/components/InputField.jsx
+
 function InputField({ label, type = "text", placeholder, value, onChange, required = false, name }) {
   return (
     <div className="mb-7 relative">
