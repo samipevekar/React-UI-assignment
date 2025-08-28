@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add this to your global CSS file or create a separate CSS module */
+.transition-all {
+  transition: all 0.2s ease;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+/* Custom purple radio buttons */
+input[type="radio"].text-purple-600:checked {
+  background-color: currentColor;
+  border-color: currentColor;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #d1d5db;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked {
+  border: 4px solid;
+  border-color: #9333ea;
+  background-color: white;
+}
+
+input[type="radio"]:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #9333ea;
+  ring-offset: 2px;
+}
